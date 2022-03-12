@@ -3,7 +3,7 @@ var readlineSync = require("readline-sync");
 var name = readlineSync.question('Please enter your name : ');
 console.log("Welcome "+name+" !!");
 console.log('--------------------------');
-console.log('This is a Quiz about how well you know me !!\nLet\'s get started \n');
+console.log('This is a Quiz about how well you know about doremon !!\nLet\'s get started \n');
 
 var score = 0;
 var highScores = [
